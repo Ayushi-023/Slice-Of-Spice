@@ -1,0 +1,126 @@
+
+.ContactUs{
+    background-image: url(../Images/top-view-business-man-hands-working-laptop-tablet-pc-wooden-desk\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+}
+.ContactUs h1{
+    color: white;
+    padding: 80px 150px;
+    font-size: 34px;
+    font-weight: 700;
+}
+#nav{
+    background-color: #0000008c;
+}
+nav img{
+    padding-left: 50px;
+}
+nav .navbar-nav{
+    padding-right: 50px;
+}
+#navtogle {
+    border-color: white; 
+}
+#navtogle-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+ul li{
+    padding-left: 19px;
+}
+#btn{
+    background-color: #CC9933;
+    color: white;
+}
+#contactus p{
+    font-size: 25px;
+    font-weight: normal;
+}
+#contactus h2{
+    font-size: 37px;
+    font-weight: 700;
+}
+#col{
+    border-radius: 29px;
+    border: 1px solid #CC9933;
+    max-width: 728px;
+    max-height: 933px;
+}
+#col input, #col textarea{
+    background-color: #F5F5F5;
+    color:#AAA9A9;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+#col textarea{
+    padding-bottom: 70px;
+}
+#col button{
+    color: white;
+    background-color: #CC9933;
+    max-width: 431px;
+    max-height: 66px;
+    padding: 5px 30px;
+    border: transparent;
+    border-radius: 4px;
+}
+#info{
+    max-width: 728px;
+}
+#footer{
+    background-color: #16191E;
+    padding: 0px 50px;
+}
+#footer img{
+    padding-bottom: 20px;
+}
+#footer .row{
+    column-gap: 40px;
+}
+#footer .row .col h4{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+#footer .row .col p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+#footer .row .col ul{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+}
+#footer .row .col h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+#footer .row .col pre{
+    color: #CC9933;
+    font-size: 11px;
+}
+#footer .row .col img{
+    padding-right: 10px;
+}
+#footer-end{
+    background-color: #CC9933;
+    padding: 15px 50px;
+}
+#footer-end h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+@media screen and (max-width:377px) {
+    .ContactUs h1{
+        padding: 80px 70px;
+        font-size: 34px;
+    }
+    #contactus p{
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,157 @@
+#menu{
+    background-image: url(../Images/chicken-skewers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+#nav{
+    background-color: #0000008c;
+}
+.navbar-nav{
+    margin-left: 42%;
+}
+nav img{
+    padding-left: 50px;
+}
+nav .navbar-nav{
+    padding-right: 50px;
+}
+#navtogle {
+    border-color: white; 
+}
+#navtogle-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+ul li{
+    padding-left: 19px;
+}
+#btn{
+    background-color: #CC9933;
+    color: white;
+}
+#menu-sub{
+    background-color: white;
+    padding: 0px 50px;
+    margin-top: -10%;
+}
+#menu-head h1{
+    font-size: 58px;
+    font-weight: 700;
+}
+#menu-head h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+#menu-sub .r{
+    column-gap: 10px;
+}
+#menu-sub .card{
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+}
+.card h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.card .price{
+    font-size: 15px;
+    color: #CC9933;
+}
+#menu-sub h3{
+    margin-bottom: 5%;
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+#menu-sub p a{
+    color: #CC9933;
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer{
+    background-color: #16191E;
+    padding: 20px 50px;
+}
+#footer img{
+    padding-bottom: 20px;
+}
+#footer .row{
+    column-gap: 40px;
+}
+#footer .row .col h4{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+#footer .row .col p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+#footer .row .col ul{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+}
+#footer .row .col h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+#footer .row .col pre{
+    color: #CC9933;
+    font-size: 11px;
+}
+#footer .row .col img{
+    padding-right: 10px;
+}
+#footer-end{
+    background-color: #CC9933;
+    padding: 15px 50px;
+}
+#footer-end h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#modalContent{
+    text-align: center;
+}
+#quantity{
+    max-width: 56px;
+}
+#model-h3{
+    font-size: 29px;
+    font-weight: 700;
+}
+#model-p{
+    font-size: 17px;
+    font-weight: 400;
+}
+#addToCart{
+    color: white;
+    background-color: #CC9933;
+    font-size: 21px;
+    font-weight: 600;
+    width: 80%;
+    border: transparent;
+}
+.form-group{
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+@media (max-width:599px) {
+    #menu-sub{
+        padding: 0px 20px;
+        margin-top: -20%;
+    }
+}
+@media (max-width:577px) {
+    #menu-sub{
+        margin-top: -20%;
+    }
+}

@@ -1,0 +1,308 @@
+#home{
+    background-image: url(../Images/tortilla-wrap-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 240px;
+    position: relative;
+}
+nav img{
+    padding-left: 30px;
+}
+/*/ NAVBAR /*/
+#navtogle {
+    border-color: white;
+}
+#navtogle-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+ul li{
+    padding-left: 19px;
+}
+#btn{
+    background-color: #CC9933;
+    color: white;
+}
+#home-sub{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#home-sub h1{
+    padding-top: 70px;
+    color: white;
+    max-width: 477px;
+    font-size: 50px;
+    font-weight: 600;
+}
+#home-sub strong{
+    color: #CC9933;
+    font-weight: 600;
+}
+#home-sub p{
+    max-width: 501px;
+    font-size: 16px;
+}
+#home-sub button{
+    background-color: #CC9933;
+    border: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px 17px;
+}
+#AboutUs{
+    background-color: white;
+}
+#AboutUs .Aboutus-sub{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#AboutUs .card{
+    padding: 50px;
+    box-shadow: 2px 2px 5px gray;
+    margin-top: -17%;
+}
+.card h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 135%;
+}
+.card button{
+    border: transparent;
+    color: #CC9933;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: white;
+}
+.card button:hover{
+    border: transparent;
+}
+.gap{
+    background-color: #F7E9E4;
+}
+#delivery{
+    background-color: #F7E9E4;
+    background-image: url(../Images/img-1.png);
+    background-repeat: repeat-x;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.delivery-sub{
+    padding-bottom: 20px;
+}
+.delivery-sub div h2{
+    font-size: 34px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.delivery-sub div p{
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 135%;
+    color: black;
+}
+.delivery-sub div button{
+    background-color: #16191E;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    width: 264px;
+    height: 65px;
+}
+#bestfor{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#bestfor h2{
+    padding-bottom: 30px;
+}
+.row {
+    padding-bottom: 20px;
+}
+.row .col div{
+    background-color: #16191E;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.row .col div img{
+    padding: 30px;
+}
+.row .col h4{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.row .col p{
+    font-size: 19px;
+    font-weight: normal;
+    color: #504F4F;
+}
+
+#Serveyou{
+    background-image: url(../Images/Group\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-position: right;
+}
+.serveyou-sub h3{
+    font-size: 29px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 7%;
+}
+.serveyou-sub .row{
+    padding-bottom: 100px;
+}
+.serveyou-sub .row .col h1{
+    color: #CC9933;
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+.serveyou-sub .row .col p{
+    font-size: 33px;
+    color: white;
+    font-weight: 600;
+}
+#remember{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#remember h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+#remember h4{
+    font-size: 105px;
+    font-weight: 800;
+    color: #CC9933;
+    margin-bottom: -20px;
+}
+#remember p{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#remember img{
+    margin-top: 10px;
+}
+#remember h5{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #8E8E8E;   
+}
+#signup{
+    background-image: url(../Images/business-handshake-two-menjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+#signup p{
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 70px;
+}
+#signup .input{
+    padding-top: 30px;
+}
+#signup #text{
+    font-size: 18px;
+}
+#signup .btn-subscribe{
+    background-color: #CC9933;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+#footer{
+    background-color: #16191E;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#footer .row{
+    column-gap: 40px;
+}
+#footer .row .col h4{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+#footer .row .col p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+#footer .row .col ul{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+}
+#footer .row .col h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+#footer .row .col pre{
+    color: #CC9933;
+    font-size: 11px;
+}
+#footer .row .col img{
+    padding-right: 10px;
+}
+#footer-end{
+    background-color: #CC9933;
+    padding: 15px 50px;
+}
+#footer-end h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+@media  (max-width : 825px) {
+    #AboutUs .card{
+        padding: 20px;
+        margin-top: -47%;
+    }
+    .card p{
+        font-size: 17px;
+    }
+    .card p{
+        font-size: 15px;
+    }
+    .card button{
+        font-size: 17px;
+    }
+    .delivery-sub{
+        padding: 10px;
+    }
+    .delivery-sub div p{
+        font-size: 18px;
+    }
+    .delivery-sub div button{
+        font-size: 20px;
+        width: 200px;
+        height: 55px;
+    }
+    #remember p{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 17px;
+    }
+}

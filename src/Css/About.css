@@ -1,0 +1,144 @@
+.AboutUs{
+    background-image: url(../Images/serving-wedding-table-vintage-style\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+}
+#nav{
+    background-color: #0000008c;
+}
+nav img{
+    padding-left: 50px;
+}
+nav .navbar-nav{
+    padding-right: 50px;
+}
+#navtogle {
+    border-color: white; 
+}
+#navtogle-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+ul li{
+    padding-left: 19px;
+}
+#btn{
+    background-color: #CC9933;
+    color: white;
+}
+.AboutUs .heading h1{
+    color: white;
+    padding: 80px 250px;
+}
+#Aboutus-sub{
+    background-color: #F7E9E4;
+    padding: 0px 50px;
+}
+#Aboutus-sub .text{
+   max-width: 617px;
+}
+.text h2{
+    font-size: 37px;
+    font-weight: 600;
+}
+.text p{
+    font-size: 23px;
+    font-weight: 400;
+}
+#cards{
+    padding: 0px 50px;
+}
+#cards .r {
+    column-gap: 40px;
+}
+#cards .col{
+    box-shadow: 2px 2px 5px gray;
+    border: 3px;
+}
+#cards .col img{
+    padding-top: 25px;
+}
+#cards .col h2{
+    font-size: 18px;
+    padding-top: 15px;
+}
+#cards .col p{
+    font-size: 10px;
+}
+.team{
+    background-color: #FFEECB;
+}
+.team h2{
+    font-size: 37px;
+    font-weight: 700;
+}
+.team p{
+    font-size: 23px;
+    font-weight: 400;
+}
+.team .col{
+    box-shadow: 2px 2px 5px gray;
+    background-color: white;
+    border-radius: 4px;
+}
+.team img{
+    border-radius: 4px;
+    padding-top: 20px;
+}
+#teams{
+    column-gap: 20px;
+}
+#footer{
+    background-color: #16191E;
+    padding: 0px 50px;
+}
+#footer img{
+    padding-bottom: 20px;
+}
+#footer .row{
+    column-gap: 40px;
+}
+#footer .row .col h4{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+#footer .row .col p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+#footer .row .col ul{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+}
+#footer .row .col h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+#footer .row .col pre{
+    color: #CC9933;
+    font-size: 11px;
+}
+#footer .row .col img{
+    padding-right: 10px;
+}
+#footer-end{
+    background-color: #CC9933;
+    padding: 15px 50px;
+}
+#footer-end h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+@media (max-width:500px) {
+    .AboutUs .heading h1{
+        padding: 80px 70px;
+    }
+    #cards{
+        padding: 0px 30px;
+    }
+}
